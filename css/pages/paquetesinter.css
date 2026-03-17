@@ -1,0 +1,117 @@
+.packages-internacional {
+    padding: 80px 0;
+}
+
+.promo-slider-section {
+    margin-bottom: 50px;
+}
+
+.promo-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+
+.promo-slides {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.promo-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    pointer-events: none;
+}
+
+.promo-slide.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.promo-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Botones */
+.promo-slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 46px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.38);
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.promo-slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.promo-slider-btn.prev {
+    left: 18px;
+}
+
+.promo-slider-btn.next {
+    right: 18px;
+}
+
+/* Dots */
+.promo-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+}
+
+.promo-dot {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.promo-dot.active {
+    background-color: #8cc63f;
+    transform: scale(1.15);
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe-container iframe {
+    max-width: 100%;
+    border: none;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.iframe-container iframe {
+    max-width: 100%;
+    border: none;
+}

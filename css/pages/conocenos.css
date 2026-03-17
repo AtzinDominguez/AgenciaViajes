@@ -1,0 +1,93 @@
+.company-intro {
+    padding: 90px 0 40px;
+    background-color: #ffffff;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 2.6rem;
+    color: #0a89a8;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+
+.section-line {
+    width: 120px;
+    height: 4px;
+    background-color: #8cc63f;
+    margin: 0 auto;
+}
+
+.company-intro-text {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #4b5a6a;
+}
+
+.identity-section {
+    padding: 50px 0 100px;
+    background-color: #f5f7fa;
+}
+
+.identity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    align-items: stretch;
+}
+
+.identity-card {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 35px 28px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    border-top: 5px solid #8cc63f;
+    height: 100%;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.identity-card h3 {
+    font-size: 1.7rem;
+    color: #0a89a8;
+    margin-bottom: 18px;
+    line-height: 1.2;
+}
+
+.identity-card p {
+    color: #4b5a6a;
+    line-height: 1.8;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.values-list {
+    padding-left: 18px;
+}
+
+.values-list li {
+    margin-bottom: 12px;
+    color: #4b5a6a;
+    line-height: 1.7;
+}
+
+.identity-grid,
+.identity-card {
+    min-width: 0;
+}
+
+.identity-card,
+.identity-card p,
+.values-list,
+.values-list li {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}

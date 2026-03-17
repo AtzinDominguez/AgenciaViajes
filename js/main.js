@@ -1,0 +1,1 @@
+console.log("Sitio Xinbal Tours cargado correctamente");

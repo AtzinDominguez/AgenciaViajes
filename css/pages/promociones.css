@@ -1,0 +1,121 @@
+.promotions-intro {
+    padding: 90px 0 40px;
+    background-color: #ffffff;
+}
+
+.promotions-intro-text {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.08rem;
+    line-height: 1.9;
+    color: #4b5a6a;
+}
+
+.promotions-section {
+    padding: 30px 0 100px;
+    background-color: #f5f7fa;
+}
+
+.promotions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.promotion-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promotion-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.12);
+}
+
+.promotion-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.promotion-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.45s ease;
+}
+
+.promotion-card:hover .promotion-image img {
+    transform: scale(1.05);
+}
+
+.promotion-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #8cc63f;
+    color: #ffffff;
+    font-size: 0.86rem;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 999px;
+    letter-spacing: 0.2px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.promotion-content {
+    padding: 24px;
+}
+
+.promotion-content h3 {
+    font-size: 1.45rem;
+    color: #0a89a8;
+    margin-bottom: 14px;
+    line-height: 1.25;
+}
+
+.promotion-content p {
+    font-size: 0.98rem;
+    line-height: 1.8;
+    color: #4b5a6a;
+    margin-bottom: 20px;
+}
+
+.promotion-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.promotion-meta span {
+    display: inline-flex;
+    align-items: center;
+    background-color: #eaf4f6;
+    color: #0a89a8;
+    font-size: 0.86rem;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 999px;
+}
+
+.promotion-btn {
+    display: inline-block;
+    background-color: #0a89a8;
+    color: #ffffff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.promotion-btn:hover {
+    background-color: #087892;
+    transform: translateY(-2px);
+}

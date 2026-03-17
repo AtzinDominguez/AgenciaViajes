@@ -1,0 +1,41 @@
+.reservation-banner {
+    background-image: url('/assets/img/horizonte.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.reservation-banner-overlay {
+    background: rgba(39, 30, 54, 0.42);
+    padding: 90px 0 80px;
+}
+
+.reservation-banner-content {
+    text-align: center;
+    color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.reservation-line {
+    width: 65%;
+    max-width: 700px;
+    height: 4px;
+    background-color: #7ed321;
+    margin: 0 auto 28px;
+}
+
+.reservation-banner-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.reservation-banner-content p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+}
