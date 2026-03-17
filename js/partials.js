@@ -29,7 +29,7 @@ function resolveHeaderPaths() {
         promociones: `${base}/views/promociones.html`,
         contacto: `${base}/views/contacto.html`,
         'paquetes-nacionales': `${base}/views/paquetes.html#nacionales`,
-        'paquetes-internacional': `${base}/views/paquetes.html#internacional`,
+        'paquetes-internacional': `${base}/views/paquetesInter.html`,
     };
 
     const assets = {
