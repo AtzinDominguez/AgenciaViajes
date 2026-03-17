@@ -1,5 +1,5 @@
 .reservation-banner {
-    background-image: url('/assets/img/horizonte.jpg');
+    background-image: url('../assets/img/horizonte.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
